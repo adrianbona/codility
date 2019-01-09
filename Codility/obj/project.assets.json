@@ -2,6 +2,18 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.1": {
+      "Microsoft.Extensions.CommandLineUtils/1.1.1": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1"
+        },
+        "compile": {
+          "lib/netstandard1.3/Microsoft.Extensions.CommandLineUtils.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/Microsoft.Extensions.CommandLineUtils.dll": {}
+        }
+      },
       "Microsoft.NETCore.App/2.1.0": {
         "type": "package",
         "dependencies": {
@@ -211,6 +223,21 @@
     }
   },
   "libraries": {
+    "Microsoft.Extensions.CommandLineUtils/1.1.1": {
+      "sha512": "6kjEaCcE2dbACCrvWoHkH7UB3eQtYAAgt4HFbkQnPpBhSSwktrBq5veNWT7rI3wFcmhlphLu6ZhqFltImBsNew==",
+      "type": "package",
+      "path": "microsoft.extensions.commandlineutils/1.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net451/Microsoft.Extensions.CommandLineUtils.dll",
+        "lib/net451/Microsoft.Extensions.CommandLineUtils.xml",
+        "lib/netstandard1.3/Microsoft.Extensions.CommandLineUtils.dll",
+        "lib/netstandard1.3/Microsoft.Extensions.CommandLineUtils.xml",
+        "microsoft.extensions.commandlineutils.1.1.1.nupkg.sha512",
+        "microsoft.extensions.commandlineutils.nuspec"
+      ]
+    },
     "Microsoft.NETCore.App/2.1.0": {
       "sha512": "AvT774nTFgU8cYcGO9j1EMwuayKslxqYTurg32HGpWa2hEYNuW2+XgYVVNcZe6Ndbr84QX6fwaOZfd5n+1m2OA==",
       "type": "package",
@@ -684,6 +711,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
+      "Microsoft.Extensions.CommandLineUtils >= 1.1.1",
       "Microsoft.NETCore.App >= 2.1.0"
     ]
   },
@@ -694,11 +722,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Adrian\\GIT\\Codility\\Codility\\Codility\\Codility.csproj",
+      "projectUniqueName": "C:\\Users\\Adrian\\GIT\\Codility\\Codility\\Codility.csproj",
       "projectName": "Codility",
-      "projectPath": "C:\\Users\\Adrian\\GIT\\Codility\\Codility\\Codility\\Codility.csproj",
+      "projectPath": "C:\\Users\\Adrian\\GIT\\Codility\\Codility\\Codility.csproj",
       "packagesPath": "C:\\Users\\Adrian\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Adrian\\GIT\\Codility\\Codility\\Codility\\obj\\",
+      "outputPath": "C:\\Users\\Adrian\\GIT\\Codility\\Codility\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -728,6 +756,10 @@
     "frameworks": {
       "netcoreapp2.1": {
         "dependencies": {
+          "Microsoft.Extensions.CommandLineUtils": {
+            "target": "Package",
+            "version": "[1.1.1, )"
+          },
           "Microsoft.NETCore.App": {
             "target": "Package",
             "version": "[2.1.0, )",

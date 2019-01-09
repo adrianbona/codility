@@ -9,3 +9,14 @@ C:\Users\Adrian\GIT\Codility\Codility\Codility\obj\Debug\netcoreapp2.1\Codility.
 C:\Users\Adrian\GIT\Codility\Codility\Codility\obj\Debug\netcoreapp2.1\Codility.AssemblyInfo.cs
 C:\Users\Adrian\GIT\Codility\Codility\Codility\obj\Debug\netcoreapp2.1\Codility.dll
 C:\Users\Adrian\GIT\Codility\Codility\Codility\obj\Debug\netcoreapp2.1\Codility.pdb
+C:\Users\Adrian\GIT\Codility\Codility\bin\Debug\netcoreapp2.1\Codility.deps.json
+C:\Users\Adrian\GIT\Codility\Codility\bin\Debug\netcoreapp2.1\Codility.runtimeconfig.json
+C:\Users\Adrian\GIT\Codility\Codility\bin\Debug\netcoreapp2.1\Codility.runtimeconfig.dev.json
+C:\Users\Adrian\GIT\Codility\Codility\bin\Debug\netcoreapp2.1\Codility.dll
+C:\Users\Adrian\GIT\Codility\Codility\bin\Debug\netcoreapp2.1\Codility.pdb
+C:\Users\Adrian\GIT\Codility\Codility\obj\Debug\netcoreapp2.1\Codility.csprojAssemblyReference.cache
+C:\Users\Adrian\GIT\Codility\Codility\obj\Debug\netcoreapp2.1\Codility.csproj.CoreCompileInputs.cache
+C:\Users\Adrian\GIT\Codility\Codility\obj\Debug\netcoreapp2.1\Codility.AssemblyInfoInputs.cache
+C:\Users\Adrian\GIT\Codility\Codility\obj\Debug\netcoreapp2.1\Codility.AssemblyInfo.cs
+C:\Users\Adrian\GIT\Codility\Codility\obj\Debug\netcoreapp2.1\Codility.dll
+C:\Users\Adrian\GIT\Codility\Codility\obj\Debug\netcoreapp2.1\Codility.pdb
