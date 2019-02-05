@@ -1,4 +1,4 @@
-﻿using System;
+﻿using Codility.CountDiv;
 
 namespace Codility
 {
@@ -6,7 +6,8 @@ namespace Codility
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var solution = new Solution();
+            int result = solution.solution(100, 123000000, 2);
         }
     }
 }

@@ -6,6 +6,10 @@
         {
             int length = A.Length;
             int[] counters = new int[N];
+
+            int[] indexer = new int[length];
+            indexer[0] = N;
+
             bool maxApplied = true;
             int max = 0;
 
