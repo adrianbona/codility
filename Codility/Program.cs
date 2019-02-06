@@ -1,4 +1,5 @@
-﻿using Codility.CountDiv;
+﻿using Codility.MinimumDeletions;
+using System;
 
 namespace Codility
 {
@@ -7,7 +8,7 @@ namespace Codility
         static void Main(string[] args)
         {
             var solution = new Solution();
-            int result = solution.solution(100, 123000000, 2);
+            Console.WriteLine(solution.solution("banana"));
         }
     }
 }
