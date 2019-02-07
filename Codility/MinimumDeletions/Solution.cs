@@ -20,7 +20,7 @@
                     if (letters[i] > letters[j] && prefix[i] < prefix[j] + 1)
                     {
                         prefix[i] = prefix[j] + 1;
-                        if(prefix[i] > result)
+                        if (prefix[i] > result)
                         {
                             result = prefix[i];
                         }
