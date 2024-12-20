@@ -1,4 +1,4 @@
-﻿namespace Codility.FrogJmp
+﻿namespace Codility.TimeComplexity.FrogJmp
 {
     public class Solution
     {

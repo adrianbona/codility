@@ -1,4 +1,4 @@
-﻿namespace Codility.PermMissingElem
+﻿namespace Codility.TimeComplexity.PermMissingElem
 {
     public class Solution
     {

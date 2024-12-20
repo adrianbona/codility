@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Codility.MissingInteger
+namespace Codility.CountingElements.MissingInteger
 {
     public class Solution
     {

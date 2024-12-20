@@ -1,4 +1,4 @@
-﻿namespace Codility.MaxCounters
+﻿namespace Codility.CountingElements.MaxCounters
 {
     public class Solution
     {

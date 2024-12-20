@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Codility.PermCheck
+namespace Codility.CountingElements.PermCheck
 {
     public class Solution
     {

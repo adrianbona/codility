@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Codility.CyclicRotation
+namespace Codility.Arrays.CyclicRotation
 {
     public class Solution
     {

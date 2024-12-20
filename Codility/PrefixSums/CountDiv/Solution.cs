@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Codility.CountDiv
+namespace Codility.PrefixSums.CountDiv
 {
     public class Solution
     {

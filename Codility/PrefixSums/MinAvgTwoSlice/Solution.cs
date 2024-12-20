@@ -1,4 +1,4 @@
-﻿namespace Codility.MinAvgTwoSlice
+﻿namespace Codility.PrefixSums.MinAvgTwoSlice
 {
     public class Solution
     {

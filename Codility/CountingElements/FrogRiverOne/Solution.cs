@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Codility.FrogRiverOne
+namespace Codility.CountingElements.FrogRiverOne
 {
     public class Solution
     {

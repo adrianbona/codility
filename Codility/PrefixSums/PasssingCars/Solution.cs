@@ -1,4 +1,4 @@
-﻿namespace Codility.PasssingCars
+﻿namespace Codility.PrefixSums.PasssingCars
 {
     public class Solution
     {

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Codility.TapeEquilibrium
+namespace Codility.TimeComplexity.TapeEquilibrium
 {
     public class Solution
     {
