@@ -8,13 +8,13 @@ namespace Codility.BinaryGap
         {
             int size = 0;
             string binary = Convert.ToString(N, 2);
-            int first = binary.IndexOfAny("1".ToCharArray());
+            int first = binary.IndexOf('1');
             if (first == -1)
             {
                 return size;
             }
 
-            int second = binary.IndexOfAny("1".ToCharArray(), first + 1);
+            int second = binary.IndexOf('1', first + 1);
             if (second == -1)
             {
                 return size;
@@ -28,7 +28,7 @@ namespace Codility.BinaryGap
                 }
 
                 first = second;
-                second = binary.IndexOfAny("1".ToCharArray(), first + 1);
+                second = binary.IndexOf('1', first + 1);
             }
 
             return size;
