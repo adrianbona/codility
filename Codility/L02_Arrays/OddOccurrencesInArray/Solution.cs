@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Codility.Arrays.CyclicRotation
+namespace Codility.OddOccurrencesInArray
 {
     public class Solution
     {

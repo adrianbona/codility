@@ -1,4 +1,4 @@
-﻿namespace Codility.OddOccurrencesInArray
+﻿namespace Codility.Arrays.CyclicRotation
 {
     public class Solution
     {
